@@ -47,4 +47,22 @@
     background-position: 4em;
     font-size: 16px;
   }
+  
+  .banner__pesquisa:focus {
+    color: var(--laranja);
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .banner__pesquisa {
+    width: 35%;
+  }
+
+  .banner__pesquisa::placeholder {
+    background-position: 9em;
+  }
+
+  .banner {
+    padding: 5em 0;
+  }
 }
